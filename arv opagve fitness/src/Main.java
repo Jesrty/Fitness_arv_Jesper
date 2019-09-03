@@ -40,7 +40,7 @@ public class Main {
             System.out.println(m);
         }
 
-        System.out.println("==========================================================================\n");
+        System.out.println("==========================================================================\n\n");
 
         //medlemmer og employees
         System.out.println("Fitness members & employees");

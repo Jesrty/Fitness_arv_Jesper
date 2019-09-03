@@ -1,4 +1,4 @@
-public class Person {
+public abstract class Person {
 
     private String name;
     private String cpr;
@@ -17,6 +17,11 @@ public class Person {
 
     public void setCpr(String cpr) {
         this.cpr = cpr;
+    }
+
+    @Override
+    public String toString() {
+        return getName() + "\t\t" + getCpr();
     }
 
     public String toString(String overload) {
