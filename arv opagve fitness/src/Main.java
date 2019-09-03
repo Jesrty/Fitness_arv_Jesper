@@ -57,6 +57,19 @@ public class Main {
 
         System.out.println("==========================================================================\n");
 
+        /*
+        ---->DET HER PRINTER DET SAMME SOM DET OVER (Det sidste)<----
+
+        List<Person> personList = new ArrayList<>();
+        personList.addAll(members);
+        personList.addAll(employees);
+
+        for (Person p : personList){
+            System.out.println(p.toString("lol"));
+        }
+        */
+
+
     }
 
 }
